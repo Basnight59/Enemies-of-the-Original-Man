@@ -16,6 +16,6 @@ Open `index.html` in a browser, or serve the folder:
 - `audio/` — "Why There Was No Slave Trade" talk (32 kbps mono MP3, about 11 MB) played in the Media section
 
 ## TODO
-- Replace placeholder retailer homepages in the `#buy` section with direct product URLs (only Reader Depot is real).
+- Replace placeholder retailer homepages in the `#buy` section with direct product URLs (Reader Depot, Amazon, Walmart and ThriftBooks are real; Barnes & Noble, Kobo, Bookshop.org, BookBeat, Amazon UK and IBS are still homepages).
 - Fill the "Forthcoming" sections: Table of Contents, Sample, Evidence, Author, Media, Speaking.
 - Review the internal-notes copy ("Asset Note", SEO strategy blocks) before publishing publicly.
