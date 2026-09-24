@@ -13,6 +13,7 @@ Open `index.html` in a browser, or serve the folder:
 - `styles.css` — design tokens and layout
 - `site.js` — mobile menu and active-section highlighting
 - `img/` — front and back cover
+- `audio/` — "Why There Was No Slave Trade" talk (32 kbps mono MP3, about 11 MB) played in the Media section
 
 ## TODO
 - Replace placeholder retailer homepages in the `#buy` section with direct product URLs (only Reader Depot is real).

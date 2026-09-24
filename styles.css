@@ -489,6 +489,12 @@ button { font: inherit; color: inherit; cursor: pointer; }
   border: 1px dashed var(--line);
   padding: 4px 10px;
 }
+/* audio player card in #media */
+.media-card .by { margin-top: 4px; font-size: 12px; letter-spacing: 0.06em; color: var(--muted); }
+.player { display: block; width: 100%; max-width: 720px; margin-top: 20px; color-scheme: dark; }
+.media-links { margin-top: 12px; font-size: 12px; }
+.media-links a { color: var(--gold); border-bottom: 1px solid rgba(201, 168, 106, 0.4); padding-bottom: 2px; }
+.media-links a:hover { border-color: var(--gold); }
 .band-head { max-width: 720px; margin-bottom: 40px; }
 .band-head p { margin-top: 16px; font-size: 14px; line-height: 1.7; color: var(--muted); }
 
