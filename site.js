@@ -4,6 +4,28 @@
   var toggle = document.querySelector('.menu-toggle');
   var panel = document.getElementById('mobile-menu');
 
+  // ---------- Light / dark toggle ----------
+  var root = document.documentElement;
+  var themeBtn = document.querySelector('.theme-toggle');
+  // styles.css publishes the effective theme as --theme, so this also holds when the OS decides
+  function currentTheme() {
+    return getComputedStyle(root).getPropertyValue('--theme').trim() === 'light' ? 'light' : 'dark';
+  }
+  function labelThemeBtn() {
+    var next = currentTheme() === 'light' ? 'dark' : 'light';
+    var text = 'Switch to ' + next + ' mode';
+    themeBtn.setAttribute('aria-label', text);
+    themeBtn.setAttribute('title', text);
+  }
+  themeBtn.addEventListener('click', function () {
+    var next = currentTheme() === 'light' ? 'dark' : 'light';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('eotom-theme', next); } catch (e) {}
+    labelThemeBtn();
+  });
+  window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', labelThemeBtn);
+  labelThemeBtn();
+
   // ---------- Mobile menu ----------
   function setOpen(open) {
     panel.classList.toggle('is-open', open);
