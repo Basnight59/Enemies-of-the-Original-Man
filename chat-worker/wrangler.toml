@@ -1,0 +1,18 @@
+name = "eotom-chat"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Pages that may call this Worker (comma-separated, no trailing slashes).
+ALLOWED_ORIGINS = "https://enemiesoftheoriginalman.com,https://www.enemiesoftheoriginalman.com,https://basnight59.github.io,http://localhost:8000"
+
+# 20 chat requests per minute per visitor IP.
+[[ratelimits]]
+name = "CHAT_LIMITER"
+namespace_id = "1001"
+  [ratelimits.simple]
+  limit = 20
+  period = 60
+
+# The API key is a secret, never stored here:  npx wrangler secret put ANTHROPIC_API_KEY

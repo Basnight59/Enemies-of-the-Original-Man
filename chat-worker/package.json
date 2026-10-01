@@ -1,0 +1,16 @@
+{
+  "name": "eotom-chat",
+  "private": true,
+  "description": "Chat assistant for enemiesoftheoriginalman.com: a Cloudflare Worker that holds the Anthropic API key and streams Claude's answers.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.146.0"
+  }
+}
