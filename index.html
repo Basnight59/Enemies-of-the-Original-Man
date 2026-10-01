@@ -47,6 +47,17 @@
         "duration": "PT45M45S",
         "encodingFormat": "audio/mpeg",
         "contentUrl": "audio/why-there-was-no-slave-trade.mp3"
+      },
+      {
+        "@type": "VideoObject",
+        "name": "Enemies of the Original Man — Book Trailer",
+        "description": "Book trailer for Enemies of the Original Man: A Clinical and Legal Framework for Reparative Justice, introducing PTCS, PTSMS and the DDM.",
+        "author": { "@type": "Person", "name": "Abdullah Hakim Kenneth Basnight" },
+        "thumbnailUrl": "video/book-trailer-poster.jpg",
+        "uploadDate": "2026-10-01",
+        "duration": "PT30S",
+        "encodingFormat": "video/mp4",
+        "contentUrl": "video/book-trailer.mp4"
       }
     ]
   }
@@ -172,8 +183,46 @@
 
     <!-- ===================== WHERE TO BUY ===================== -->
     <section class="wrap retail" id="buy">
+      <!-- Direct sales. TODO: replace each href="#buy" with its Stripe Payment Link, set prices, and add
+           matching "offers" to the Book JSON-LD. Bulk button: TODO mailto: address for quotes. -->
+      <div class="direct">
+        <div class="eyebrow">Buy Direct From The Author</div>
+        <p class="direct-lede">Signed copies are only available here, and buying direct sends more of every sale to the author.</p>
+        <div class="direct-grid">
+          <div class="card direct-tile">
+            <div class="kicker">Paperback • Signed</div>
+            <h3>Signed Paperback</h3>
+            <p>Signed by the author, with an optional personal inscription. Shipped from the author.</p>
+            <div class="price">Price coming soon</div>
+            <a class="btn btn-dark" href="#buy" aria-disabled="true">Coming Soon</a>
+          </div>
+          <div class="card direct-tile">
+            <div class="kicker">Paperback</div>
+            <h3>Paperback</h3>
+            <p>The physical book, ISBN 979-8-905503-16-0. Shipped from the author.</p>
+            <div class="price">Price coming soon</div>
+            <a class="btn btn-dark" href="#buy" aria-disabled="true">Coming Soon</a>
+          </div>
+          <div class="card direct-tile">
+            <div class="kicker">Ebook</div>
+            <h3>Ebook (EPUB + PDF)</h3>
+            <p>Both formats, delivered by email after purchase.</p>
+            <div class="price">Price coming soon</div>
+            <a class="btn btn-dark" href="#buy" aria-disabled="true">Coming Soon</a>
+          </div>
+          <div class="card direct-tile">
+            <div class="kicker">Bulk • Institutional</div>
+            <h3>Bulk &amp; Institutional Orders</h3>
+            <p>Universities, libraries, study groups, and events. Quotes for multiple copies.</p>
+            <div class="price">Quote on request</div>
+            <a class="btn btn-outline" href="#buy" aria-disabled="true">Coming Soon</a>
+          </div>
+        </div>
+        <div class="retail-note">Secure checkout by Stripe</div>
+      </div>
+
       <div class="retail-box">
-        <div class="retail-label">Available Through Booksellers Worldwide</div>
+        <div class="retail-label">Also Available Through Booksellers Worldwide</div>
         <!-- Real product URLs except Bookshop.org (still a homepage; TODO). Google Play is the audiobook listing. -->
         <div class="retail-list">
           <a href="https://readerdepot.com/books/enemies-of-the-original-man/" target="_blank" rel="noopener noreferrer">Reader Depot</a>
@@ -509,7 +558,19 @@
               <a href="audio/why-there-was-no-slave-trade.mp3">Download the MP3</a>.
             </audio>
             <p class="media-links"><a href="audio/why-there-was-no-slave-trade.mp3" download>Download MP3 (11 MB)</a></p>
-            <span class="soon">Interviews, articles, video, and press kit — forthcoming</span>
+            <span class="soon">Interviews, articles, and press kit — forthcoming</span>
+          </div>
+          <div class="card media-card" id="video">
+            <div class="kicker">Media • Video</div>
+            <h3>Book Trailer</h3>
+            <p class="by">Abdullah Hakim Kenneth Basnight • 30 sec</p>
+            <!-- vertical 1080×1920 video; see video/README.md for how it was prepared -->
+            <video class="player player-video" controls preload="metadata" playsinline
+                   poster="video/book-trailer-poster.jpg" width="1080" height="1920" aria-label="Enemies of the Original Man — book trailer">
+              <source src="video/book-trailer.mp4" type="video/mp4">
+              Your browser does not support video playback.
+              <a href="video/book-trailer.mp4">Download the video</a>.
+            </video>
           </div>
         </div>
         <div class="placeholder-grid cols-2" style="margin-top:20px">
@@ -554,7 +615,7 @@
 │   ├── <a href="#primary-sources">Primary Sources</a>
 │   └── <a href="#bibliography">Bibliography</a>
 ├── <a href="#author">Author</a> / <a href="#media">Media</a> / <a href="#speaking">Speaking</a>
-└── <a href="#buy">Buy</a> — external retailers</div>
+└── <a href="#buy">Buy</a> — direct from the author + retailers</div>
           </div>
 
           <div class="stack">
@@ -598,7 +659,7 @@
       <div>
         <div class="footer-brand">ENEMIES OF THE ORIGINAL MAN</div>
         <div class="footer-sub">A Clinical and Legal Framework for Reparative Justice</div>
-        <p class="footer-mission"><strong>Canonical mission:</strong> Our site should own the meaning, the provenance, the audience relationship, and the next engagement. Let retailers — Amazon, Barnes &amp; Noble, Kobo, Bookshop.org, Walmart, ThriftBooks, BookBeat — handle transactions. This hub owns definitions, evidence boundaries, and scholarly lineage.</p>
+        <p class="footer-mission"><strong>Canonical mission:</strong> Our site should own the meaning, the provenance, the audience relationship, and the next engagement. Readers can buy direct from the author here, or through retailers — Amazon, Barnes &amp; Noble, Kobo, Bookshop.org, Walmart, ThriftBooks, BookBeat. This hub owns definitions, evidence boundaries, and scholarly lineage.</p>
         <div class="footer-schema">Schema.org: Book { name: "Enemies of the Original Man", isbn: "979-8-905503-16-0", author: { "@type": "Person", name: "Abdullah Hakim Kenneth Basnight" } }<br>DefinedTerm: PTCS — proposed analytical framework, not DSM • PTSMS — proposed analytical framework, not DSM • DDM — proposed research agenda</div>
       </div>
 

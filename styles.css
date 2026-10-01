@@ -445,8 +445,22 @@ button { font: inherit; color: inherit; cursor: pointer; }
   color: var(--muted-2);
 }
 
+/* ---------- Buy direct ---------- */
+.direct { margin-top: 64px; text-align: center; }
+@media (min-width: 1024px) { .direct { margin-top: 80px; } }
+.direct-lede { margin: 12px auto 0; max-width: 560px; font-size: 14px; line-height: 1.7; color: var(--muted); }
+.direct-grid { display: grid; gap: 20px; margin-top: 32px; text-align: left; }
+@media (min-width: 768px) { .direct-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1024px) { .direct-grid { grid-template-columns: repeat(4, 1fr); } }
+.direct-tile { display: flex; flex-direction: column; }
+.direct-tile p { flex: 1; }
+.direct-tile .price { margin: 20px 0 16px; font-family: var(--font-display); font-size: 18px; color: var(--ink-2); }
+.direct-tile .btn { padding: 14px 16px; }
+.direct-tile .btn[aria-disabled="true"] { opacity: 0.55; pointer-events: none; }
+.direct .retail-note { margin-top: 16px; }
+
 /* ---------- Retailer strip ---------- */
-.retail { padding: 0 0 16px; }
+.retail { padding-bottom: 16px; }
 .retail-box {
   margin-top: 64px;
   border-top: 1px solid var(--line);
@@ -617,6 +631,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 /* audio player card in #media */
 .media-card .by { margin-top: 4px; font-size: 12px; letter-spacing: 0.06em; color: var(--muted); }
 .player { display: block; width: 100%; max-width: 720px; margin-top: 20px; }
+/* the book trailer is vertical (9:16), so cap its width to keep it within a screen's height */
+.player-video { aspect-ratio: 9 / 16; height: auto; max-width: min(100%, 340px); background: #000; }
 .media-links { margin-top: 12px; font-size: 12px; }
 .media-links a { color: var(--gold); border-bottom: 1px solid rgba(var(--gold-rgb), 0.4); padding-bottom: 2px; }
 .media-links a:hover { border-color: var(--gold); }
