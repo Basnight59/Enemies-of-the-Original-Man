@@ -3,6 +3,7 @@
 export const KNOWLEDGE = `
 # Enemies of the Original Man: A Clinical and Legal Framework for Reparative Justice
 Author: Abdullah Hakim Kenneth Basnight
+The author's full name is Abdullah Hakim Kenneth Basnight Poole. The cover byline is shortened to fit the spine; he also writes as Abdullah Hakim and Abdullah Basnight Poole. All are the same person.
 Official site: https://enemiesoftheoriginalman.com
 Format: paperback, ISBN 979-8-905503-16-0, distributed via Spines. Also an audiobook (Google Play).
 
