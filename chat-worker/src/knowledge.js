@@ -70,7 +70,14 @@ Available now from booksellers:
 - BookBeat: https://www.bookbeat.com/es/book/enemies-of-the-original-man-2062765
 - IBS (Italy): https://www.ibs.it/enemies-of-original-man-clinical-libro-inglese-abdullah-hakim-kenneth-basnight/e/9798905503160
 - Google Play (audiobook): https://play.google.com/store/audiobooks/details?id=AQAAAEAG8zezIM
-- Bookshop.org also carries it.
+- Bookshop.org: https://bookshop.org/search?keywords=9798905503160
+
+Spanish edition, "Enemigos del hombre original" (Spanish-language translation of the book):
+- Reader Depot: https://readerdepot.com/books/enemigos-del-hombre-original/
+- Amazon paperback: https://www.amazon.com/dp/B0HLG8581V
+- Amazon hardcover: https://www.amazon.com/dp/B0HLKZLHVP
+- Amazon ebook: https://www.amazon.com/dp/B0HLKH241Z
+- Audiobook: Google Play https://play.google.com/store/audiobooks/details?id=AQAAAECGthf2gM , Kobo https://www.kobo.com/ar/es/audiobook/enemigos-del-hombre-original , Storytel https://www.storytel.com/ar/books/enemigos-del-hombre-original-un-marco-cl%C3%ADnico-y-legal-para-la-justicia-reparativa-15267779
 
 ## Work with the author (https://enemiesoftheoriginalman.com/#book)
 - Consultations: one-on-one video sessions with the author on the PTCS, PTSMS, and DDM frameworks, research, genealogy, or reparative-justice work, booked straight onto the author's calendar: https://enemiesoftheoriginalman.com/#consult

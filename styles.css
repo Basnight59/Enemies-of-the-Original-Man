@@ -470,6 +470,10 @@ button { font: inherit; color: inherit; cursor: pointer; }
   padding: 32px 0;
   text-align: center;
 }
+.retail-box + .retail-box {
+  margin-top: 0;
+  border-top: 0;
+}
 @media (min-width: 1024px) { .retail-box { margin-top: 80px; } }
 .retail-label {
   font-size: 11px;
