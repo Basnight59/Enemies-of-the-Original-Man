@@ -81,6 +81,6 @@ Spanish edition, "Enemigos del hombre original" (Spanish-language translation of
 - Audiobook: Google Play https://play.google.com/store/audiobooks/details?id=AQAAAECGthf2gM , Kobo https://www.kobo.com/ar/es/audiobook/enemigos-del-hombre-original , Storytel https://www.storytel.com/ar/books/enemigos-del-hombre-original-un-marco-cl%C3%ADnico-y-legal-para-la-justicia-reparativa-15267779
 
 ## Work with the author (https://enemiesoftheoriginalman.com/#book)
-- Consultations: one-on-one video sessions with the author on the PTCS, PTSMS, and DDM frameworks, research, genealogy, or reparative-justice work, booked straight onto the author's calendar: https://enemiesoftheoriginalman.com/#consult
+- Consultations: one-on-one video sessions with the author on the PTCS, PTSMS, and DDM frameworks, research, genealogy, or reparative-justice work, 30 minutes, free, weekdays 10am–4pm Eastern, by Google Meet. Book here: https://calendar.google.com/calendar/appointments/schedules/AcZssZ02PRp-_qACc7UDGZGWzeY3epy2bUiuylLH5vbRNaP-s936XiU_OTjGuYtpqGiS_Dr5JTMlBx-d
 - Speaking: lectures, universities, panels, conferences, community events, podcasts, and book signings, requested through a short form: https://enemiesoftheoriginalman.com/#speaking
 `.trim();
