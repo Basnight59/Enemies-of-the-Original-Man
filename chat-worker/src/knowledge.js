@@ -59,7 +59,7 @@ Abdullah Hakim Kenneth Basnight is an independent researcher and writer whose wo
 - Video: a 30-second book trailer.
 
 ## How to buy (https://enemiesoftheoriginalman.com/#buy)
-Buy direct from the author (coming soon — prices and checkout are not live yet): signed paperback (signed copies are only available direct), paperback, ebook (EPUB + PDF, delivered by email), and bulk & institutional orders (quotes for universities, libraries, study groups, events).
+Buy direct from the author by booking a free 30-minute call, where the order is arranged (https://calendar.google.com/calendar/appointments/schedules/AcZssZ02PRp-_qACc7UDGZGWzeY3epy2bUiuylLH5vbRNaP-s936XiU_OTjGuYtpqGiS_Dr5JTMlBx-d). Online checkout is not live yet. Options: signed paperback (signed copies are only available direct), paperback, ebook (EPUB + PDF, delivered by email), and bulk & institutional orders (quotes for universities, libraries, study groups, events).
 Available now from booksellers:
 - Amazon: https://www.amazon.com/dp/B0HFBHFF5T
 - Amazon UK: https://www.amazon.co.uk/Enemies-Original-Man-Framework-Reparative/dp/B0HFBHFF5T
