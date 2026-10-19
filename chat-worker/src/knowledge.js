@@ -81,7 +81,7 @@ Spanish edition, "Enemigos del hombre original" (Spanish-language translation of
 - Audiobook: Google Play https://play.google.com/store/audiobooks/details?id=AQAAAECGthf2gM , Kobo https://www.kobo.com/ar/es/audiobook/enemigos-del-hombre-original , Storytel https://www.storytel.com/ar/books/enemigos-del-hombre-original-un-marco-cl%C3%ADnico-y-legal-para-la-justicia-reparativa-15267779
 
 ## Newsletter
-The author's newer book, The Diaspora Debate (on the African diaspora, the African Union's Sixth Region and political belonging), is being published free on Substack, one part each Tuesday from October 27, 2026 to January 12, 2027. Subscribe free: https://kennethbasnight.substack.com/subscribe
+The author's newer book, The Diaspora Debate (on the African diaspora, the African Union's Sixth Region and political belonging), is being published free on Substack, one part each Tuesday from October 27, 2026 to January 12, 2027. Subscribe free: https://kennethbasnight.substack.com/
 
 ## Work with the author (https://enemiesoftheoriginalman.com/#book)
 - Consultations: one-on-one video sessions with the author on the PTCS, PTSMS, and DDM frameworks, research, genealogy, or reparative-justice work, 30 minutes, free, weekdays 10am–4pm Eastern, by Google Meet. Book here: https://calendar.google.com/calendar/appointments/schedules/AcZssZ02PRp-_qACc7UDGZGWzeY3epy2bUiuylLH5vbRNaP-s936XiU_OTjGuYtpqGiS_Dr5JTMlBx-d
