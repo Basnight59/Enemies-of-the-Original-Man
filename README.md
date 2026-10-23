@@ -12,8 +12,9 @@ Open `index.html` in a browser, or serve the folder:
 - `index.html` — all sections, anchors and JSON-LD (Book + DefinedTerms)
 - `styles.css` — design tokens and layout
 - `site.js` — mobile menu, active-section highlighting, theme toggle and the chat widget
+- `assets/share.js` — floating Share button (bottom-left); same script as sphinxanalysis.com and sphinxglobalenterprisescorp.com
 - `chat-worker/` — Cloudflare Worker behind the chat widget (not part of the static site)
-- `img/` — front and back cover
+- `img/` — front and back cover, and `og-image.jpg` (1200×630 link-preview image)
 - `audio/` — "Why There Was No Slave Trade" talk (32 kbps mono MP3, about 11 MB) played in the Media section
 - `video/` — 30-second book trailer (vertical MP4) and its poster image, played in the Media section
 
