@@ -9,6 +9,18 @@
     /* apply a saved light/dark choice before first paint; with no choice the OS setting decides (see styles.css) */
     try { var t = localStorage.getItem('eotom-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {}
   </script>
+  <link rel="canonical" href="https://enemiesoftheoriginalman.com/">
+  <!-- Link previews (Facebook, LinkedIn, WhatsApp, X, iMessage) -->
+  <meta property="og:type" content="book">
+  <meta property="og:site_name" content="Enemies of the Original Man">
+  <meta property="og:title" content="Enemies of the Original Man — Abdullah Hakim Kenneth Basnight">
+  <meta property="og:description" content="A clinical and legal framework for reparative justice. Canonical source for the PTCS, PTSMS and DDM frameworks. Signed copies direct from the author.">
+  <meta property="og:url" content="https://enemiesoftheoriginalman.com/">
+  <meta property="og:image" content="https://enemiesoftheoriginalman.com/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Enemies of the Original Man book cover">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
   {
@@ -745,5 +757,7 @@
   </section>
 
   <script src="site.js"></script>
+  <!-- Share button: see assets/share.js. Sits bottom-left so it doesn't cover the chat button. -->
+  <script src="assets/share.js" defer data-accent="var(--gold)" data-bg="var(--deep)" data-fg="var(--ink)" data-position="left"></script>
 </body>
 </html>
